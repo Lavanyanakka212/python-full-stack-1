@@ -160,7 +160,7 @@ chi_.show()
 
 ex:"""
 class person:
-    def __init__(self,name):
+    def __init__(self,name):#constructor means init function are same
         self.name = name
 class student(person):
     def __init__(self,name,roll):
